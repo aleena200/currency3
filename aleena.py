@@ -13,13 +13,9 @@ model = tf.keras.models.load_model(MODEL_PATH)
 
 # Define class labels
 class_labels = {
-<<<<<<< HEAD
-    '100_new': "You have 100 rupees note",
-    '200_new': "You have 200 rupees note",
-    '20_new': "You have 20 rupees note",
-    '500_new': "You have 500 rupees note",
-    '50_new': "You have 50 rupees note"
-=======
+
+    
+
     '10_new' : "You have 10 rupees note",
     '20_new' :"You have 20 rupees note",
     '50_new' :"You have 50 rupees note",
@@ -28,7 +24,7 @@ class_labels = {
     '500_new' :"You have 500 rupees note"
     
     
->>>>>>> caee60a03d5f3a245979498f8a668b9fb2206b63
+
 }
 
 def preprocess_image(img):
